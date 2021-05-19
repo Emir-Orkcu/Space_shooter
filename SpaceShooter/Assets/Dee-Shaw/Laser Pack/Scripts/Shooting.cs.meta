@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f79e363b17b051e4da1aa49a769e095f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Lazer: {fileID: 6345746231374780270, guid: 0ac1f4d249139ce4dbbde191b02c1ba2, type: 3}
+  - Lazer1: {fileID: 6345746231374780270, guid: f03acc3d6ccdaf642a4de3ebe61f9dde,
+      type: 3}
+  - Lazer2: {fileID: 6345746231374780270, guid: 2f686589d6cbafe45b56a79831175d48,
+      type: 3}
+  - Lazer3: {fileID: 6345746231374780270, guid: d15ad0c110d097a40b80073fb846202b,
+      type: 3}
+  - Lazer4: {fileID: 6345746231374780270, guid: 4f2548636794daa41a6501d03cc85999,
+      type: 3}
+  - ShootPoint: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,25 @@
+The asset folder(Laser Pack)contains the assets used in our example scene. 
+
+Here's a breakdown of the content you'll find in these folders:
+
+1.Example asset-Contains the example assets from LWRP template.
+
+2.Materials- All materials used for the Lasers in the scene.
+
+3.Models-The .fbx models for the assets in the scene.
+
+4.Shader Graphs-The PBR shader graphs used for the lasers in the scene.  
+
+5.Scripts- Here you will find the camera control and laser shooting scripts.
+
+6.Scene- This folder contains the actual demo scene.
+
+7.Prefab- Find all the laser ready to use prefabs in this folder.
+
+8.Sound- this folder contais the laser beam sound effect.
+
+9.Documents- Here you will find the manul about using the provided assets and shader graphs.   
+
+10.Settings-This folder has LWRP default settings and post-process profile.
+
+11.Manual-This folder has a guidline document on how to use the laser asset.

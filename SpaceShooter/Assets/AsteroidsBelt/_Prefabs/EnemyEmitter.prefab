@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1466985966540910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4407696012954318}
+  - component: {fileID: 122040211229214380}
+  - component: {fileID: 114447001527020736}
+  - component: {fileID: 114648971766767148}
+  m_Layer: 0
+  m_Name: EnemyEmitter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4407696012954318
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466985966540910}
+  m_LocalRotation: {x: 0.020465558, y: 0, z: 0, w: 0.9997906}
+  m_LocalPosition: {x: 0, y: 0, z: 153.65077}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!122 &122040211229214380
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466985966540910}
+  m_Enabled: 0
+  m_Color:
+    serializedVersion: 2
+    rgba: 4279304449
+  m_Size: 5
+--- !u!114 &114447001527020736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466985966540910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ce85f981f3c62a46b97d7927db61f46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startDelay: 0
+  delay: 1.6
+  generationRange: 10
+  customParent: {fileID: 4407696012954318}
+  enemySpeed: 20
+  ignoreCollisionsLayer: 8
+--- !u!114 &114648971766767148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466985966540910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a452fab626e659d4bab61df96908703a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  preloadObjects:
+  - customName: 
+    objectPrefab: {fileID: 100000, guid: a8cf5b0d176d3ff40baf295f022a1051, type: 3}
+    quantity: 100
+    addAutoPoolScript: 1
+  - customName: 
+    objectPrefab: {fileID: 100000, guid: d4c61eabc5c11d74b9550ebfea7b98a9, type: 3}
+    quantity: 100
+    addAutoPoolScript: 1
+  Pool: []

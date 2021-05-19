@@ -1,0 +1,48 @@
+**Thank you for downloading the 5 in 1 laser beam pack LWRP!**
+
+**Please consider rating the package through your download list or leave a review at the store page once you’re familiar with it.**
+
+**Your feedback is instrumental to the future of this package!**
+
+*COMPATIBILITY
+
+-Works only with LWRP.
+
+-For the laser beam shader to work better you would need to update shader graph to and LWRP to 6.9.2. 
+
+-Laser beam shader will work with the previous versions of shader graph and LWRP.
+
+*GETTING STARTED
+
+-Add the laser prefabs to the slot given in the script section of main camera.
+
+-Add the shoot point(empty game object) the the script section of main camera which says "Shoot Point".
+
+-Once the scripts and laser prefabs are added, simply press play.
+
+-To use camera movement right click and move the mouse as per requirment.
+
+-Fire button(left mouse click) to shoot the first laser.
+
+-Z(key) to shoot sencond laser.
+
+-X(key) to shoot thrid laser.
+
+-C(key) to shoot fourth laser.
+
+-V(key) to shoot fifth laser.
+
+**Editing the laser.
+
+-Go to prefab press(open prefab for full settings).
+
+-Then change shader shader settings according to requirment.'
+
+-Each laser prefab has 4 shaders and one Point light.
+
+-Various  laser prefabs can be easily created through editing the shader.
+
+
+**If any doubts/questions feel free to contact through unity connect link is on my asset store page!
+
+*Thank you! please rate and give us your review.
